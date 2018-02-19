@@ -1,0 +1,77 @@
+<entry xmlns="http://www.w3.org/2005/Atom">
+    <id>https://vccrgns3dc2178016.servicebus.windows.net/topic1?api-version=2013-07</id>
+    <title type="text">topic1</title>
+    <published>2017-12-11T14:57:03Z</published>
+    <updated>2017-12-11T14:58:25Z</updated>
+    <author>
+        <name>vccrgns3dc2178016</name>
+    </author>
+    <link rel="self" href="https://vccrgns3dc2178016.servicebus.windows.net/topic1?api-version=2013-07"/>
+    <content type="application/xml">
+        <TopicDescription xmlns="http://schemas.microsoft.com/netservices/2010/10/servicebus/connect" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <DefaultMessageTimeToLive>P14D</DefaultMessageTimeToLive>
+            <MaxSizeInMegabytes>1024</MaxSizeInMegabytes>
+            <RequiresDuplicateDetection>true</RequiresDuplicateDetection>
+            <DuplicateDetectionHistoryTimeWindow>P1DT30S</DuplicateDetectionHistoryTimeWindow>
+            <EnableBatchedOperations>true</EnableBatchedOperations>
+            <SizeInBytes>0</SizeInBytes>
+            <FilteringMessagesBeforePublishing>false</FilteringMessagesBeforePublishing>
+            <IsAnonymousAccessible>false</IsAnonymousAccessible>
+            <AuthorizationRules>
+                <AuthorizationRule i:type="SharedAccessAuthorizationRule">
+                    <ClaimType>SharedAccessKey</ClaimType>
+                    <ClaimValue>None</ClaimValue>
+                    <Rights>
+                        <AccessRights>Manage</AccessRights>
+                        <AccessRights>Listen</AccessRights>
+                        <AccessRights>Send</AccessRights>
+                    </Rights>
+                    <CreatedTime>2017-12-11T14:58:01.980731Z</CreatedTime>
+                    <ModifiedTime>2017-12-11T14:58:01.980731Z</ModifiedTime>
+                    <KeyName>managetopic1</KeyName>
+                    <PrimaryKey>OXWb0Iky4psVTvepJoLTYyUrfmDMCNeoKV+bAXcj000=</PrimaryKey>
+                    <SecondaryKey>0H9CAMt/f+6/qGdvAk3qVieHdjvV6SWjCHBN1LWhzGM=</SecondaryKey>
+                </AuthorizationRule>
+                <AuthorizationRule i:type="SharedAccessAuthorizationRule">
+                    <ClaimType>SharedAccessKey</ClaimType>
+                    <ClaimValue>None</ClaimValue>
+                    <Rights>
+                        <AccessRights>Send</AccessRights>
+                    </Rights>
+                    <CreatedTime>2017-12-11T14:58:15.8833401Z</CreatedTime>
+                    <ModifiedTime>2017-12-11T14:58:15.8833401Z</ModifiedTime>
+                    <KeyName>SendTopic1</KeyName>
+                    <PrimaryKey>FOhineTegHFYx8Q4LC6QGIuSkUoT3IjrPUuSKfovbTs=</PrimaryKey>
+                    <SecondaryKey>YsOLRHF3VkBibz5iyaNHDpRzkTJxU7pXPRaOxHAY5No=</SecondaryKey>
+                </AuthorizationRule>
+                <AuthorizationRule i:type="SharedAccessAuthorizationRule">
+                    <ClaimType>SharedAccessKey</ClaimType>
+                    <ClaimValue>None</ClaimValue>
+                    <Rights>
+                        <AccessRights>Listen</AccessRights>
+                    </Rights>
+                    <CreatedTime>2017-12-11T14:58:24.1512603Z</CreatedTime>
+                    <ModifiedTime>2017-12-11T14:58:24.1512603Z</ModifiedTime>
+                    <KeyName>ListenTopic1</KeyName>
+                    <PrimaryKey>fv+UwI2vEly67BuaFHBKAB5W2jJw+wrWM27V3ZxQvq0=</PrimaryKey>
+                    <SecondaryKey>P5WnCUmU8sgmY/VaEWcFjHCk3NCA9MG3484ggfHEeWg=</SecondaryKey>
+                </AuthorizationRule>
+            </AuthorizationRules>
+            <Status>Active</Status>
+            <CreatedAt>2017-12-11T14:57:03.75Z</CreatedAt>
+            <UpdatedAt>2017-12-11T14:58:25.06Z</UpdatedAt>
+            <AccessedAt>2018-01-29T09:03:44.41Z</AccessedAt>
+            <SupportOrdering>true</SupportOrdering>
+            <CountDetails xmlns:d2p1="http://schemas.microsoft.com/netservices/2011/06/servicebus">
+                <d2p1:ActiveMessageCount>0</d2p1:ActiveMessageCount>
+                <d2p1:DeadLetterMessageCount>0</d2p1:DeadLetterMessageCount>
+                <d2p1:ScheduledMessageCount>0</d2p1:ScheduledMessageCount>
+                <d2p1:TransferMessageCount>0</d2p1:TransferMessageCount>
+                <d2p1:TransferDeadLetterMessageCount>0</d2p1:TransferDeadLetterMessageCount>
+            </CountDetails>
+            <SubscriptionCount>2</SubscriptionCount>
+            <AutoDeleteOnIdle>P10675199DT2H48M5.4775807S</AutoDeleteOnIdle>
+            <EntityAvailabilityStatus>Available</EntityAvailabilityStatus>
+        </TopicDescription>
+    </content>
+</entry>
