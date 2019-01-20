@@ -69,7 +69,7 @@ public class RestTemplateFactory {
 	@Scope(value=ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 	public RestTemplate getRestTemplateForMgmtAPI() {
 		
-		logger.debug("Getting the RestTemplate @ MgmtAPI");
+		logger.debug("Getting the RestTemplate @ MgmtAPI .. starting");
 		RequestConfig.Builder builder = RequestConfig.custom();
 		builder.setConnectTimeout(60000);
 		RequestConfig config = builder.build();
